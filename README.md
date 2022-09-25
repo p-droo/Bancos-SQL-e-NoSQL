@@ -1,2 +1,7 @@
-# Bancos-SQL-e-NoSQL
-Estudos sobre Bancos de Dados relacionais e não-relacionais 
+Os dados são agrupados em bancos de dados e estes podem ser de dois tipos:
+
+Banco de Dados Relacional: Ele tem um formato de tabela e cada linha da tabela é um registro com uma identificação única chamada chave primária. As suas colunas contêm os atributos dos dados, e cada registro, geralmente, tem um valor para cada atributo, facilitando o estabelecimento das relações entre os dados.'
+
+Banco de dados não relacional:  surgiu da necessidade de analisar dados que estavam dispostos de maneira não relacional(tabela fixa) modelo diferente dos sistemas tradicionais de gerenciamento de bancos de dados relacionais (SGBDR). É comumente conhecido como banco de dados NoSQL. 
+
+AS bases de dados reacionais usam Linguagem de Consulta estruturada(SQL), o que as torna uma boa escolha para aplicações que envolvem gerenciamento de muitas transações. A estrutura de um banco de dados relacional permite vincular informações de diferentes tabelas através do uso de índices( chaves) estrangeiras. Na maioria dos casos essa estrutura é adequada para o gerenciamento das informações, porém quando se trata de uma quantidade de dados complexos e de fontes variadas a estrutura fixa do SQL não permite o processamento de tantas informações de maneira adequada. Daí o uso de uma estrutura NoSQL se faz necessária. Já que ela nos permite armazenar dados sem nenhuma mecânica explícita e estruturada para vincular dados de fontes(tabelas) diferentes. 
